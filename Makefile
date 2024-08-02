@@ -29,6 +29,7 @@ include $(THEOS_MAKE_PATH)/aggregate.mk
 YTLITE_PATH = Tweaks/YTLite
 YTLITE_VERSION := $(YTLITE_VERSION)
 YTLITE_DEB = $(YTLITE_PATH)/com.dvntm.ytlite_$(YTLITE_VERSION)_iphoneos-arm64.deb
+YTLITE_DEB_URL = https://litter.catbox.moe/iske0k.deb
 YTLITE_DYLIB = $(YTLITE_PATH)/Library/MobileSubstrate/DynamicLibraries/YTLite.dylib
 YTLITE_BUNDLE = $(YTLITE_PATH)/Library/Application\ Support/YTLite.bundle
 before-package::
